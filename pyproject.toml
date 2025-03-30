@@ -1,0 +1,12 @@
+[project]
+name = "anthropic-image-converter"
+version = "0.1.0"
+description = "Tool for optimizing and sending images to Anthropic API"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "logging>=0.4.9.6",
+    "pillow>=11.1.0",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+]
